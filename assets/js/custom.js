@@ -14,24 +14,6 @@
 	  }
 	});
 	
-	$('.filters ul li').click(function(){
-        $('.filters ul li').removeClass('active');
-        $(this).addClass('active');
-          
-          var data = $(this).attr('data-filter');
-          $grid.isotope({
-            filter: data
-          })
-        });
-
-        var $grid = $(".grid").isotope({
-          itemSelector: ".all",
-          percentPosition: true,
-          masonry: {
-            columnWidth: ".all"
-          }
-        });
-
 
 	const Accordion = {
 	  settings: {
@@ -259,7 +241,7 @@
 	        }
 	    });
 	}
-
+	
 
 	// Page loading animation
 	$(window).on('load', function() {
@@ -374,28 +356,28 @@ function toggleReadMore(btn) {
     }
 }
 // Disable right-click context menu
-document.addEventListener('contextmenu', function(event) {
-	event.preventDefault();
-});
+// document.addEventListener('contextmenu', function(event) {
+// 	event.preventDefault();
+// });
 
 // Disable specific keyboard shortcuts
-document.addEventListener('keydown', function(event) {
-	if (event.ctrlKey && event.shiftKey && event.key === 'I') {
-		event.preventDefault();
-	}
-	if (event.ctrlKey && event.shiftKey && event.key === 'J') {
-		event.preventDefault();
-	}
-	if (event.ctrlKey && event.key === 'U') {
-		event.preventDefault();
-	}
-	if (event.ctrlKey ) {
-		event.preventDefault();
-	}
-	if (event.key === 'F12') {
-		event.preventDefault();
-	}
-});
+// document.addEventListener('keydown', function(event) {
+// 	if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+// 		event.preventDefault();
+// 	}
+// 	if (event.ctrlKey && event.shiftKey && event.key === 'J') {
+// 		event.preventDefault();
+// 	}
+// 	if (event.ctrlKey && event.key === 'U') {
+// 		event.preventDefault();
+// 	}
+// 	if (event.ctrlKey ) {
+// 		event.preventDefault();
+// 	}
+// 	if (event.key === 'F12') {
+// 		event.preventDefault();
+// 	}
+// });
 
 
 // ===============================
