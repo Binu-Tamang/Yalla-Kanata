@@ -201,6 +201,13 @@
     <?php include('inc/footer.php') ?>
 
     <?php include('inc/js.php') ?>
+
+    <script>
+        const navItems = document.querySelectorAll('.header-area.header-sticky .nav li a');
+        if (navItems.length >= 6) {
+            navItems[5].classList.add("active");
+        }
+    </script>
 </body>
 
 </html>

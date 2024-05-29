@@ -10,20 +10,20 @@
                         <a href="tel:+97144518955">+97144518955</a></span>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-4">
+            <div class="col-lg-4 col-sm-4 d-none d-sm-block">
                 <div class="right-icons">
                     <ul>
                         <li>
                             <a href="https://www.facebook.com/yallakanata/"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="/website/social/twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
                         <li>
-                            <a href="/website/social/linkedin"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
                         </li>
                         <li>
-                            <a href="/website/social/instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -49,10 +49,10 @@
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                         <li class="scroll-to-section">
-                            <a href="#top" class="active">Home</a>
+                            <a href="index.php" class="">Home</a>
                         </li>
-                        <li><a href="#">Our Story</a></li>
-                        <li class="scroll-to-section"><a href="#">Our Services</a></li>
+                        <li><a href="our-story.php">Our Story</a></li>
+                        <li class="scroll-to-section"><a href="services.php">Our Services</a></li>
                         <!-- <li class="has-sub">
                               <a href="javascript:void(0)">Pages</a>
                               <ul class="sub-menu">
@@ -61,10 +61,10 @@
                               </ul>
                           </li> -->
                         <li class="scroll-to-section">
-                            <a href="#">Transition & Integration</a>
+                            <a href="transition-integration.php">Transition & Integration</a>
                         </li>
-                        <li class="scroll-to-section"><a href="#">Our Policies</a></li>
-                        <li class="scroll-to-section"><a href="#">Get Started</a></li>
+                        <li class="scroll-to-section"><a href="policies.php">Our Policies</a></li>
+                        <li class="scroll-to-section"><a href="get-started.php">Get Started</a></li>
                         <li class="scroll-to-section"><a href="#">Blogs</a></li>
                     </ul>
                     <a class="menu-trigger">

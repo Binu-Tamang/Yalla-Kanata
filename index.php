@@ -908,12 +908,12 @@ contact us section
 
   <?php include('inc/js.php') ?>
 
-  <!-- <script>
-    const navItems = document.querySelectorAll('.navbar .navbar-nav .nav-link');
+  <script>
+    const navItems = document.querySelectorAll('.header-area.header-sticky .nav li a');
     if (navItems.length >= 1) {
       navItems[0].classList.add("active");
     }
-  </script> -->
+  </script>
 
 </body>
 

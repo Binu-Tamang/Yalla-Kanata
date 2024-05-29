@@ -215,7 +215,7 @@
     <section class="legal-disclaimer">
         <div class="container">
             <div class="about__one-right-title">
-                <h2 class="web-hh">Our Policies</h2>
+                <h2 class="web-hh">Legal Disclaimer</h2>
             </div>
             <strong>Please read this legal disclaimer carefully before using our documents clearing website. By accessing or using our website, you agree to the terms and conditions outlined in this disclaimer.</strong>
 
@@ -284,6 +284,13 @@
     <?php include('inc/footer.php') ?>
 
     <?php include('inc/js.php') ?>
+
+    <script>
+        const navItems = document.querySelectorAll('.header-area.header-sticky .nav li a');
+        if (navItems.length >= 5) {
+            navItems[4].classList.add("active");
+        }
+    </script>
 </body>
 
 </html>

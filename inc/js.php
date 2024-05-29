@@ -2,6 +2,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <script src="assets/js/owl-carousel.js"></script>
   <!-- <script src="assets/js/lightbox.js"></script> -->
@@ -9,55 +10,8 @@
   <script src="assets/js/slick-slider.js"></script>
   <script src="assets/js/custom.js"></script>
   <script>
-    //according to loftblog tut
-    $(".nav li:first").addClass("active");
+   
 
-    var showSection = function showSection(section, isAnimate) {
-      var direction = section.replace(/#/, ""),
-        reqSection = $(".section").filter(
-          '[data-section="' + direction + '"]'
-        ),
-        reqSectionPos = reqSection.offset().top - 0;
 
-      if (isAnimate) {
-        $("body, html").animate({
-            scrollTop: reqSectionPos,
-          },
-          800
-        );
-      } else {
-        $("body, html").scrollTop(reqSectionPos);
-      }
-    };
-
-    var checkSection = function checkSection() {
-      $(".section").each(function() {
-        var $this = $(this),
-          topEdge = $this.offset().top - 80,
-          bottomEdge = topEdge + $this.height(),
-          wScroll = $(window).scrollTop();
-        if (topEdge < wScroll && bottomEdge > wScroll) {
-          var currentId = $this.data("section"),
-            reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-          reqLink
-            .closest("li")
-            .addClass("active")
-            .siblings()
-            .removeClass("active");
-        }
-      });
-    };
-
-    $(".main-menu, .responsive-menu, .scroll-to-section").on(
-      "click",
-      "a",
-      function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
-      }
-    );
-
-    $(window).scroll(function() {
-      checkSection();
-    });
+  
   </script>
