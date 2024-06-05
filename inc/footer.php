@@ -14,16 +14,16 @@
                         </div>
                         <ul class="footer-social-links">
                             <li>
-                                <a href="https://www.facebook.com/yallakanata/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                <a target="_blank" title="Facebook" href="https://www.facebook.com/yallakanata/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="/website/social/twitter"><i class="fa fa-twitter"></i></a>
+                                <a target="_blank" title="X" href="https://x.com/yalla_kanata"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="/website/social/linkedin"><i class="fa fa-linkedin"></i></a>
+                                <a target="_blank" title="Instagram" href="https://www.instagram.com/yallakanata/"><i class="fa fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="/website/social/instagram"><i class="fa fa-instagram"></i></a>
+                                <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/yalla-kanata-dcs/"><i class="fa fa-instagram"></i></a>
                             </li>
                         </ul>
                         <!-- <div class="footer-newletter">
@@ -52,28 +52,28 @@
                         <h5 class="footer-h">Quicks Links</h5>
                         <ul class="imp-link">
                             <li>
-                                <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Our
+                                <a href="our-story.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Our
                                     Story</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Our
+                                <a href="services.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Our
                                     Services</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>
+                                <a href="transition-integration.php"><i class="fa fa-caret-right" aria-hidden="true"></i>
                                     Transition & Integration</a>
                             </li>
 
                             <li>
-                                <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Our
+                                <a href="policies.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Our
                                     Policies</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Get
+                                <a href="get-started.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Get
                                     Started</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>
+                                <a target="_blank" href="https://yallakanataodoo.odoo.com/blog"><i class="fa fa-caret-right" aria-hidden="true"></i>
                                     Blogs</a>
                             </li>
                         </ul>

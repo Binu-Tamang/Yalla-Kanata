@@ -144,7 +144,7 @@
                         </div>
                     </div>
                     <div class="col-md-5">
-                        <img loading="lazy" src="assets/images/business-services.svg" class="man with tab">
+                        <img loading="lazy" src="assets/images/business-services.svg" class="man_with_tab">
                     </div>
                 </div>
             </div>

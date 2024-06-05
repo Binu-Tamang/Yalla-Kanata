@@ -41,7 +41,7 @@
     padding: 1rem;
   }
   strong.typing-text.headlight-h {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   ol.breadcrumb.justify-content-center.text-uppercase a {
@@ -51,13 +51,51 @@
   }
 
   .page-header {
-    height: 400px;
+    height: 350px;
+    padding: 0rem;
+    margin-top: 4rem;
   }
   section.our-policies .accordions.is-first-expanded::before{
     display: none;
   }
   section.our-policies.our-courses {
     padding: 2rem 0;
+}
+/* =================services pages css starts here ================= */
+.serve-box .image {
+  height: 160px;
+}
+
+.choose_box.type_two {
+  margin-bottom: 15px;
+}
+
+.ads-banner {
+  padding: 2rem 0;
+}
+
+.accordion-body > .content {
+  padding: 10px;
+  padding-top: 0;
+}
+
+.accordion-head.is-open {
+  padding: 10px;
+}
+
+.accordion-head {
+  /* padding: 10px 15px; */
+}
+section.contact-us {
+  padding: 2.5rem 0;
+}
+
+section.contact-us #contact {
+  padding: 20px;
+}
+
+.get-started-img {
+  padding: 0;
 }
 }
 
@@ -122,10 +160,59 @@
   section.our-policies.our-courses {
     padding: 2rem 0;
 }
+/* =================services pages css starts here ================= */
+.serve-box .image {
+  height: 160px;
+}
+
+.choose_box.type_two {
+  margin-bottom: 15px;
+}
+
+.ads-banner {
+  padding: 2rem 0;
+}
+
+.accordion-body > .content {
+  padding: 10px;
+  padding-top: 0;
+}
+
+.accordion-head.is-open {
+  padding: 10px;
+}
+
+.accordion-head {
+  /* padding: 10px 15px; */
+}
+
+section.contact-us {
+  padding: 2.5rem 0;
+}
+
+section.contact-us #contact {
+  padding: 20px;
+}
+
+.get-started-img {
+  padding: 0;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /* =================services pages css starts here ================= */
+.serve-box .image {
+  height: 160px;
+}
+
+.choose_box.type_two {
+  margin-bottom: 15px;
+}
+
+section.main-services .service-inner-content{
+  margin: 0;
+}
 }
 
 /* Large devices (desktops, 992px and up) */

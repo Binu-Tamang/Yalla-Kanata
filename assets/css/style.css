@@ -417,7 +417,6 @@ header
 
 .background-header {
   background-color: #fff !important;
-  /* height: 80px!important; */
   position: fixed !important;
   top: 0 !important;
   left: 0;
@@ -852,6 +851,7 @@ nav.main-nav .logo img {
 @media (min-width: 767px) {
   .header-area .main-nav .nav {
     display: flex !important;
+    justify-content: flex-end;
   }
 }
 
@@ -1976,6 +1976,7 @@ responsive
 
   .accordions {
     margin-left: 0px;
+    padding: 10px;
   }
 
   .new-students {
@@ -2927,7 +2928,24 @@ span.more-content {
     border-right: 4px solid;
     border-bottom: 1px solid rgba(0,0,0,.125);
     font-weight: 600;
+    transition: 0.3 all ease;
 }
 .ielts-partner img {
   width: 200px;
+}
+
+.pt150{
+  padding-top: 150px;
+}
+.ielts-img {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.accordion-body > .content strong {
+  display: block;
+  padding-top: 10px;
+}
+img.man_with_tab {
+  padding: 1.5rem 0;
 }

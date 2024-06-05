@@ -4,7 +4,7 @@
 
 	$(window).scroll(function() {
 	  var scroll = $(window).scrollTop();
-	  var box = 450;
+	  var box = 140;
 	  var header = $('header').height();
 	  if (scroll >= box - header) {
 	    $("header").addClass("background-header");
@@ -417,20 +417,84 @@ function toggleReadMore(button) {
       dots.innerHTML = dots.innerHTML + "...";
     }
   }
+  var serviceList =document.getElementById('list-example');
+  if(serviceList){
+	$(window).scroll(function () {
+		var scrollTop = $(document).scrollTop();
+		var anchors = $('.list-serv');
+		var activeFound = false;
+		// Remove 'active' class from all links
+		$('#list-example a').removeClass('active');
+		for (var i = 0; i < anchors.length; i++) {
+			var $anchor = $(anchors[i]);
+			var anchorTop = $anchor.offset().top - parseInt($anchor.css('padding-top')) - 120;
+			var anchorBottom = $anchor.offset().top + $anchor.outerHeight(true) - parseInt($anchor.css('padding-bottom')) - 120;
+			if (scrollTop > anchorTop && scrollTop < anchorBottom) {
+				$('#list-example a[href="#' + $anchor.attr('id') + '"]').addClass('active');
+				activeFound = true;
+				break;  // Exit loop after finding the active section
+			}
+		}
+	 
+	});
+	document.addEventListener("DOMContentLoaded", function() {
+        const links = document.querySelectorAll('#list-example a');
 
+        links.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
 
-//   $(window).scroll(function () {
-//     var scrollTop = $(document).scrollTop();
-//     var anchors = $('.list-serv');
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                const yOffset = -120; 
+                const yPosition = targetElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
-//     for (var i = 0; i < anchors.length; i++) {
-//       if (scrollTop > $(anchors[i]).offset().top - 120 && scrollTop < $(anchors[i]).offset().top + $(anchors[i]).height() - 120) {
-//         $('#list-example a[href="#' + $(anchors[i]).attr('id') + '"]').addClass('active');
-//       } else if (scrollTop < $(anchors[0]).offset().top) {
-//         $('.order-side-list li:first-child a').addClass('active');
-//       } else {
-//         $('#list-example a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('active');
-//       }
-//     }
-//   });
+                window.scrollTo({
+                    top: yPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+
+  }
+
   
+
+// $(function () {
+// 	AOS.init();
+// 	var scrollSpy;
+// 	var hash = window.location.hash;
+// 	hash && $('#side-menu>li>a[href="' + hash + '"]').tab("show");
+	
+// 	$("#side-menu>li>a").click(function (e) {
+// 	  e.preventDefault();
+// 	  $(this).tab("show");
+// 	  window.location.hash = this.hash;
+	  
+// 	  if (this.hash == "#tab1") {
+// 		if ($("#tab1-tab").hasClass("active")) {
+// 		  $("#tab1-programs").addClass("show");
+// 		  scrollSpy = new bootstrap.ScrollSpy(document.body, {target: "#tab1-programs"});
+// 		}
+// 	  } else {
+// 		  $("#tab1-programs").removeClass("show");
+// 		  scrollSpy.dispose();
+// 	  }
+// 	});
+// 	if($("#tab1-tab").hasClass("active")){
+// 				  $("#tab1-programs").addClass("show");
+// 				  scrollSpy = new bootstrap.ScrollSpy(document.body, {
+// 						target: '#tab1-programs'
+// 				  });
+// 			  }
+   
+//   });
+
+
+//   $('#list-item-1').scrollspy({
+//     offset: 150
+//   });
+
+//   $('.list-serv').scrollspy({offest: 170});

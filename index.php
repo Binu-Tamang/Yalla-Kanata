@@ -9,16 +9,16 @@
 
   <title>Yalla Kanata Documents Clearing</title>
 
-  
+
   <?php include('inc/css.php') ?>
 
 </head>
 
 <body>
 
-   <!-- ========================header section here ============================ -->
-   <?php include('inc/header.php') ?>
-    <!-- ========================header section here ============================ -->
+  <!-- ========================header section here ============================ -->
+  <?php include('inc/header.php') ?>
+  <!-- ========================header section here ============================ -->
 
 
   <!-- ==================Page Loader======================= -->
@@ -57,7 +57,7 @@
           </iframe>
         </div>
       </div> -->
-    <video autoplay="" muted="" loop="" id="bg-video">
+    <video autoplay="" muted="" loop="" poster="assets/images/video-thumbnail.png" preload="none"  id="bg-video">
       <source src="assets/images/map.mp4" type="video/mp4">
     </video>
     <div class="video-overlay header-text">
@@ -78,7 +78,7 @@
                 </p> -->
               <div class="main-button-yellow mt-4">
                 <div class="scroll-to-section">
-                  <a href="#">Explore More</a>
+                  <a href="our-story.php">Explore More</a>
                 </div>
               </div>
             </div>
@@ -170,9 +170,9 @@
         <div class="row">
           <div class="col-md-6">
             <div class="abt-us-img">
-              <img class="img-abt-1 shine" src="assets/images/abt-1.jpg" alt="calling" />
+              <img loading="lazy" decoding="async" class="img-abt-1 shine" loading="lazy" decoding="async" src="assets/images/abt-1.jpg" alt="calling" />
               <div class="two-img-wrap">
-                <img class="img-abt-2 shine" src="assets/images/abt-2.jpg" alt="girl" />
+                <img loading="lazy" decoding="async" class="img-abt-2 shine" loading="lazy" decoding="async" src="assets/images/abt-2.jpg" alt="girl" />
                 <div class="exp-yr">
                   <div class="count-area-content">
                     <div class="count-digit">25</div>
@@ -226,7 +226,7 @@
 
               <div class="about__one-right-btn">
                 <div class="text-left">
-                  <a class="btn-one" href="#">Discover More<i class="far fa-chevron-double-right"></i></a>
+                  <a class="btn-one" href="our-story.php">Discover More<i class="far fa-chevron-double-right"></i></a>
                 </div>
               </div>
             </div>
@@ -289,7 +289,7 @@
                 </p>
                 <div class="main-button-red">
                   <div class="scroll-to-section">
-                    <a href="#">Join Us Now!</a>
+                    <a href="get-started.php">Join Us Now!</a>
                   </div>
                 </div>
               </div>
@@ -308,7 +308,7 @@
                 </p>
                 <div class="main-button-yellow">
                   <div class="scroll-to-section">
-                    <a href="#">Join Us Now!</a>
+                    <a href="get-started.php">Join Us Now!</a>
                   </div>
                 </div>
               </div>
@@ -453,7 +453,7 @@
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-ser">
-                  <img src="assets/images/migration-serv.jpg" alt="service" />
+                  <img loading="lazy" decoding="async" src="assets/images/migration-serv.jpg" alt="service" />
                 </div>
                 <div class="img-ser-content">
                   <strong>Migration Services</strong>
@@ -475,7 +475,7 @@
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-ser">
-                  <img src="assets/images/job-placement.jpg" alt="service" />
+                  <img loading="lazy" decoding="async" src="assets/images/job-placement.jpg" alt="service" />
                 </div>
                 <div class="img-ser-content">
                   <strong>Job Placement</strong>
@@ -498,7 +498,7 @@
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-ser">
-                  <img src="assets/images/real-estate.jpg" alt="service" />
+                  <img loading="lazy" decoding="async" src="assets/images/real-estate.jpg" alt="service" />
                 </div>
                 <div class="img-ser-content">
                   <strong>Real Estate</strong>
@@ -520,7 +520,7 @@
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-ser">
-                  <img src="assets/images/meeting-02.jpg" alt="service" />
+                  <img loading="lazy" decoding="async" src="assets/images/meeting-02.jpg" alt="service" />
                 </div>
                 <div class="img-ser-content">
                   <strong>Business Services</strong>
@@ -544,7 +544,7 @@
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-ser">
-                  <img src="assets/images/insurance-health.jpg" alt="service" />
+                  <img loading="lazy" decoding="async" src="assets/images/insurance-health.jpg" alt="service" />
                 </div>
                 <div class="img-ser-content">
                   <strong>Insurance & Investment Solution</strong>
@@ -565,7 +565,7 @@
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-ser">
-                  <img src="assets/images/home-stay.jpg" alt="service" />
+                  <img loading="lazy" decoding="async" src="assets/images/home-stay.jpg" alt="service" />
                 </div>
                 <div class="img-ser-content">
                   <strong>Home Stay</strong>
@@ -589,7 +589,7 @@
           </div>
           <div class="main-button-yellow mt-4 text-center">
             <div class="scroll-to-section">
-              <a href="#">View All Services</a>
+              <a href="services.php">View All Services</a>
             </div>
           </div>
         </div>
@@ -619,7 +619,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b1.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b1.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -627,7 +627,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b2.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b2.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -635,7 +635,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b3.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b3.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -643,7 +643,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b4.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b4.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -651,7 +651,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b5.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b5.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -659,7 +659,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b7.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b7.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -667,7 +667,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b8.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b8.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -675,7 +675,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b9.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b9.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -683,7 +683,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b10.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b10.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -691,7 +691,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b11.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b11.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -699,7 +699,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b12.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b12.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -707,7 +707,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b13.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b13.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -715,7 +715,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b14.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b14.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -723,7 +723,7 @@ BRAND NAME section here
             <div class="item">
               <div class="why-us-box wb-one">
                 <div class="img-brand">
-                  <img src="assets/images/b10.png" alt="brand logo">
+                  <img loading="lazy" decoding="async" src="assets/images/b10.png" alt="brand logo">
                 </div>
               </div>
             </div>
@@ -757,12 +757,13 @@ testimonial section here
               <div class="testimonial-boxes">
                 <div class="user-id">
                   <i class="fa fa-user" aria-hidden="true"></i>
-                  <strong>Megan Baldwin</strong>
+                  <strong>Suleiman Rashid</strong>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Nemo consequatur voluptatem mollitia iure libero explicabo
-                  quasi ullam, delectus eos quibusdam
+                  From the moment I engaged with your team, the level of customer service was exceptional. The representatives were not only knowledgeable but also went above and beyond to ensure that my questions were answered and my needs were met.
+                  The quality of the service exceeded my expectations. The attention to detail, reliability, and efficiency displayed by your team truly was amazing.
+                  I am delighted with my overall experience and have already recommended your company to friends and colleagues.
+                  Thank you for the remarkable service and for setting such a high standard in your industry
                 </p>
               </div>
             </div>
@@ -770,12 +771,10 @@ testimonial section here
               <div class="testimonial-boxes">
                 <div class="user-id">
                   <i class="fa fa-user" aria-hidden="true"></i>
-                  <strong>Megan Baldwin</strong>
+                  <strong>Ariful Islam</strong>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Nemo consequatur voluptatem mollitia iure libero explicabo
-                  quasi ullam, delectus eos quibusdam
+                Alhumdullha im so happy in your work ☺️Thanks you mem!  I was stuck for few months.. when I get a great job offer from another company with good salary.. I asked my Arbab for cancellation my visa… but he threat me he will blacklist me… then I talk with Maruf who works with Yalla Kannata he said come in our office we will do everything… and they took legal action against my company… I am so happy to work with Yalla Kannata. Thank you so much!
                 </p>
               </div>
             </div>
@@ -783,12 +782,10 @@ testimonial section here
               <div class="testimonial-boxes">
                 <div class="user-id">
                   <i class="fa fa-user" aria-hidden="true"></i>
-                  <strong>Megan Baldwin</strong>
+                  <strong>AKR Vlogs</strong>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Nemo consequatur voluptatem mollitia iure libero explicabo
-                  quasi ullam, delectus eos quibusdam
+                In Dubai, I encountered problems related to absconding and overstaying fine, which left me utterly disappointed. I inquired with several agencies, but I didn't receive any advice. Then, a friend recommended Yallakanata Documents Clearing Service in Oud Metha, Dubai. I visited them, and within a few days, they resolved all my problems. I am delighted with their service.
                 </p>
               </div>
             </div>
@@ -796,12 +793,10 @@ testimonial section here
               <div class="testimonial-boxes">
                 <div class="user-id">
                   <i class="fa fa-user" aria-hidden="true"></i>
-                  <strong>Megan Baldwin</strong>
+                  <strong>MD SOHAG</strong>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Nemo consequatur voluptatem mollitia iure libero explicabo
-                  quasi ullam, delectus eos quibusdam
+                I was stack for 2months. One agent bring me here but he didnt continue my visa. He just asking for money and money. But I wanted left the country thats i went yalla kanata documents clearing service for out pass. But they gave me a right path. I am so glad that I found them. Āllāha tādēra maṅgala karuna
                 </p>
               </div>
             </div>
@@ -810,12 +805,12 @@ testimonial section here
         <div class="review-btn">
           <div class="main-button-red">
             <div class="scroll-to-section">
-              <a href="#">View All Review</a>
+              <a target="_blank" href="https://www.google.com/search?q=yalla+kanata&oq=yalla+kanata&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyDQgBEC4YrwEYxwEYgAQyCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg0NTA1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x3e5f43dddad2a0c9:0xdc240e086dc9cb4f,1,,,,">View All Review</a>
             </div>
           </div>
           <div class="main-button-yellow">
             <div class="scroll-to-section">
-              <a href="#">Write A Review</a>
+              <a target="_blank" href="https://www.google.com/search?q=yalla+kanata&oq=yalla+kanata&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyDQgBEC4YrwEYxwEYgAQyCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg0NTA1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x3e5f43dddad2a0c9:0xdc240e086dc9cb4f,3,,,,">Write A Review</a>
             </div>
           </div>
         </div>

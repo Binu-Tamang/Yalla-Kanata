@@ -31,8 +31,9 @@
             </div>
         </div>
         <div class="area-serv mt-3">
+            <div class="container">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/canada.webp" alt="area place">
@@ -42,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/UK.webp" alt="area place">
@@ -52,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/ireland.webp" alt="area place">
@@ -62,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/lithuania.webp" alt="area place">
@@ -72,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/latvia.webp" alt="area place">
@@ -82,7 +83,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/poland.webp" alt="area place">
@@ -92,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/sweden.webp" alt="area place">
@@ -102,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/hungary.webp" alt="area place">
@@ -112,7 +113,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/slovenia.webp" alt="area place">
@@ -122,7 +123,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/italy.webp" alt="area place">
@@ -132,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/portugal.webp" alt="area place">
@@ -142,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/croatia.webp" alt="area place">
@@ -153,7 +154,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/malta.webp" alt="area place">
@@ -163,7 +164,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/spain.webp" alt="area place">
@@ -173,7 +174,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/greece.webp" alt="area place">
@@ -183,7 +184,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/australia.webp" alt="area place">
@@ -193,7 +194,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="serve-box">
                         <div class="image">
                             <img src="assets/images/area/uae.webp" alt="area place">
@@ -204,11 +205,12 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
 
         <div class="container">
             <div class="scroll-spy row">
-                <div class="col-md-4">
+                <div class="col-12 col-md-4 col-lg-4 d-none d-md-block">
                     <div id="list-example" class="list-group position-sticky" style="top: 120px;">
                         <a class="list-group-item list-group-item-action" href="#list-item-1">Golden Visa</a>
                         <a class="list-group-item list-group-item-action" href="#list-item-2">Freelance Visa</a>
@@ -222,7 +224,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-8">
+                <div class="col-12 col-md-8 col-lg-8">
                     <div class="scrollspy-example" tabindex="0">
                         <div id="list-item-1" class="list-serv">
                             <h4> Golden Visa</h4>
@@ -257,7 +259,7 @@
                             <p>Smooth transitions matter. Yalla Kanata specializes in visa cancellation services, streamlining the process and ensuring compliance with all regulations.</p>
                         </div>
                         <div id="list-item-9" class="list-serv">
-                            <h4> Resi Permit And Investor Visa</h4>
+                            <h4> Residence Permit And Investor Visa</h4>
                             <p>Dreaming of expanding your horizons in the vibrant landscape of the United Arab Emirates? Our expert services offer you the key to unlock a world of educational and professional opportunities with ease. Whether you're envisioning pursuing higher education, advancing your career, or seizing lucrative investment prospects, our resident permit and investor visa services streamline the application process, making your ambitions not just possible, but achievable. <br> <br> Our team guides you every step of the way, ensuring a smooth and efficient journey towards obtaining your UAE resident permit or investor visa. From document preparation to submission, we handle the intricacies, leaving you free to focus on your aspirations. Embrace the possibilities that await you in the UAE. Contact us today to embark on your journey towards a brighter future.</p>
                         </div>
                     </div>
@@ -265,10 +267,11 @@
             </div>
         </div>
 
+
         <div class="apply-now ads-banner services-box-ads mt-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-12 col-md-6 col-lg-6">
                         <!-- <h3>"Your Success Commitment"</h3>
                         <div class="main-button-yellow mt-4">
                             <div class="scroll-to-section">
@@ -276,7 +279,7 @@
                             </div>
                         </div> -->
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <div class="item">
                             <h3 class="mb-2">Your Gateway To Global Education</h3>
                             <p class="text-white">
@@ -292,7 +295,7 @@
             <h2 class="web-hh mb-2 mt-5 text-center">Our Process</h2>
             <div class="our-process">
                 <div class="row">
-                    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="choose_box type_two">
                             <div class="icon_box">
                                 <div class="icon_image">
@@ -305,7 +308,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-2 col-xs-12">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
                         <div class="choose_box type_two">
                             <div class="icon_box">
                                 <div class="icon_image">
@@ -318,7 +321,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-2 col-xs-12">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
                         <div class="choose_box type_two">
                             <div class="icon_box">
                                 <div class="icon_image">
@@ -331,7 +334,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-2 col-xs-12">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
                         <div class="choose_box type_two">
                             <div class="icon_box">
                                 <div class="icon_image">
@@ -344,7 +347,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-2 col-xs-12">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
                         <div class="choose_box type_two">
                             <div class="icon_box">
                                 <div class="icon_image">
@@ -361,27 +364,33 @@
             </div>
         </div>
 
-        <div class="ielts-partner">
+        <div class="container">
+            <div id="con-home-inner" class="row my-5">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="image services-inner-img zoom-hover" style="visibility: visible; animation-name: bounceInLeft;">
+                        <img loading="lazy" src="assets/images/career-connector.svg" class="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 service-con-wrapper">
+                    <div class="service-inner-content" style="visibility: visible; animation-name: fadeInRight;">
+                        <strong>Student Permit</strong>
+                        <p>At Yalla Kanata Documents Clearing Services, we understand the dreams and aspirations that come with pursuing higher education on a global scale. Our mission is to simplify the process and pave the way for students worldwide to access the best educational opportunities. <br> Ready to take the next step towards your international education? Look no further than Yalla Kanata Documents Clearing Services, your trusted partner for study permits in the US, UK, Australia, Canada, and All Schengen Countries . With our strong partnerships with various levels of learning and educational institutions in these countries, we offer unparalleled support and guidance throughout the application process. Our team of experienced professionals will work closely with you, providing personalized assistance to ensure your study permit application is a success. Don’t miss out on the opportunity to study at prestigious universities, immerse yourself in vibrant cultures, and expand your horizons. Take advantage of our expertise and let us help you turn your dreams into reality. Contact us today and let’s start your journey towards an exceptional international education!   </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ielts-partner text-center">
             <div class="container">
                 <img src="assets/images/idp.webp" alt="IDP logo">
                 <img src="assets/images/CICC_Logo.svg.webp" alt="CICC logo">
             </div>
         </div>
-
-        <div class="container">
-            <div id="con-home-inner" class="row my-5">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="image services-inner-img zoom-hover" style="visibility: visible; animation-name: bounceInLeft;">
-                        <img loading="lazy" src="assets/images/career-connector.svg" class="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 service-con-wrapper">
-                    <div class="service-inner-content" style="visibility: visible; animation-name: fadeInRight;">
-                        <strong>Student Permit</strong>
-                        <p>At Yalla Kanata Documents Clearing Services, we understand the dreams and aspirations that come with pursuing higher education on a global scale. Our mission is to simplify the process and pave the way for students worldwide to access the best educational opportunities.</p>
-                    </div>
-                </div>
-            </div>
+        
+        <div class="ielts-img">
+            <img src="assets/images/ielts-2.webp" alt="students">
+            <img src="assets/images/ielts.png" alt="ielts">
+            <img src="assets/images/ielts-3.jpg" alt="girl">
         </div>
     </section>
 

@@ -17,13 +17,13 @@
                             <a href="https://www.facebook.com/yallakanata/"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="/website/social/twitter"><i class="fa fa-twitter"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="/website/social/linkedin"><i class="fa fa-linkedin"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="/website/social/instagram"><i class="fa fa-instagram"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +65,8 @@
                         </li>
                         <li class="scroll-to-section"><a href="policies.php">Our Policies</a></li>
                         <li class="scroll-to-section"><a href="get-started.php">Get Started</a></li>
-                        <li class="scroll-to-section"><a href="#">Blogs</a></li>
+                        <li class="scroll-to-section"> <a target="_blank" href="https://yallakanataodoo.odoo.com/blog"><i class="fa fa-caret-right" aria-hidden="true"></i>
+                                    Blogs</a></li>
                     </ul>
                     <a class="menu-trigger">
                         <span>Menu</span>
